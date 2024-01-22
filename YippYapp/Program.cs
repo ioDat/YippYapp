@@ -8,3 +8,12 @@ class Program
         Console.WriteLine("My name is ioDat");
     }
 }
+
+static void CountTo(int num)
+{
+    Console.WriteLine($"Counting to {num}");
+    for (int i = 1; i <= num; i++)
+    {
+        Console.WriteLine( i + " ... ");
+    }
+}
