@@ -1,5 +1,6 @@
 ﻿namespace YippYapp;
 
+// Future game dev god
 class Program
 {
     static void Main(string[] args)
@@ -9,6 +10,7 @@ class Program
     }
 }
 
+// Smth comment
 static void CountTo(int num)
 {
     Console.WriteLine($"Counting to {num}");
